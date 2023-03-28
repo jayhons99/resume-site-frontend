@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Sample Cloud Website</title>
+    <title>Jhon Sisneros</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/normalize.css" />
@@ -17,11 +17,13 @@
     <header>
       <div class="navbar">
         <ul class="links">
-          <li><a href="about">About</a></li>
-          <li><a href="education">Education</a></li>
-          <li><a href="experience">Experience</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="skills">Skills</a></li>
+          <li><a href="projects">Projects</a></li>
         </ul>
+        <div class="title">Jhon Sisneros</div>
         <div class="dropdown">
           <a href="#" class="action_btn">Contact</a>
           <div class="dropdown-content">
@@ -35,6 +37,73 @@
         </div>
       </div>
     </header>
+    <div class="about">
+      <div class="img-cropper">
+        <img src="me.png" />
+      </div>
+      <div class="text-column">
+        <h1>About Me</h1>
+        <div class="about-me">
+          I am a Software Engineer with professional experience in TypeScript,
+          ColdFusion, and Microsoft SQL. I have interest in cloud services,
+          mainly AWS and certified as a Solutions Architect Associate.
+        </div>
+      </div>
+    </div>
+    <div class="middle-section">
+      <div class="education">
+        <h2>Education</h2>
+        <div class="education-info">
+          <p>
+            Graduated from the University of Georgia in May 2022 with a
+            Bachelor's of Science in Computer Science. Notable honors include
+            Magna Cum Laude and Dean's List.
+          </p>
+          <h4>Relevant Courses</h4>
+          <ul class="courses">
+            <li>Data Structures</li>
+            <li>Computer Networks</li>
+            <li>Distributed Computing Systems</li>
+            <li>Web Programming</li>
+            <li>Software Engineering</li>
+          </ul>
+        </div>
+      </div>
+      <div class="experience">
+        <h2>Experience</h2>
+        <div class="job-item">
+          <div class="job-heading">
+            <div class="job-title">Software Engineer</div>
+            <div class="job-location">AmeriSave Mortgage Corporation</div>
+            <div class="job-date">August 2022 --- January 2023</div>
+            <ul class="job-description">
+              <li>
+                Developed a microservice in TypeScript that sends an updated
+                list of current employees to a partnered vendor’s systems using
+                their REST API.
+              </li>
+              <li>
+                Implemented an ad-hoc report per request of company’s
+                post-closing department and added approximately 25 new
+                substatuses pulled from a combination of loan data points using
+                MS SQL stored procedures.
+              </li>
+              <li>
+                Helped reduce company costs by 30% and increase productivity by
+                collaborating with stakeholders and department managers to debug
+                or add software features to CRM.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bottom-section">
+      <div class="skills">
+        <h2>Skills</h2>
+        <p class="stack-info"></p>
+      </div>
+    </div>
     <script src="" async defer></script>
   </body>
 </html>

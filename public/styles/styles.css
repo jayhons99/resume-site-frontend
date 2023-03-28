@@ -98,6 +98,135 @@ ul {
   text-decoration: underline;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1b263b;
+  color: #e0e1dd;
+  gap: 0.5rem;
+}
+
+.text-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-me {
+  max-width: 560px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.25rem;
+  padding-right: 21.5rem;
+  letter-spacing: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #e0e1dd;
+}
+
+img {
+  width: 12rem;
+  height: auto;
+}
+
+.img-cropper {
+  width: 12rem;
+  height: auto;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.education-info {
+  width: 500px;
+  font-size: 22px;
+}
+
+.education-info h4 {
+  margin-bottom: 20px;
+  text-indent: 1rem;
+}
+.education-info ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding-left: 1rem;
+}
+
+.education-info p {
+  margin: 20px;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.courses li {
+  font-style: italic;
+}
+
+.experience h2 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.job-heading {
+  font-size: 22px;
+  text-indent: 2.5rem;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.job-location {
+  font-style: italic;
+}
+
+.job-date {
+  font-size: 16px;
+}
+
+.job-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 20px;
+}
+
+.job-description li {
+  max-width: 40rem;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.bottom-section {
+  background-color: #1b263b;
+  color: #e0e1dd;
+}
+
 @media (max-width: 992px) {
   .navbar .links,
   .navbar .action_btn {
