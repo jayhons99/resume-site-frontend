@@ -303,9 +303,19 @@ img {
 .footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0.8rem;
   background-color: #0d1b2a;
   color: #e0e1dd;
+}
+
+.tracker {
+  margin-left: auto;
+  text-align: center;
+}
+
+.footer .left {
+  width: 50%;
 }
 
 @media (max-width: 992px) {
