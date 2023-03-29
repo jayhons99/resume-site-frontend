@@ -20,8 +20,8 @@
           <li><a href="#about">About</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
-          <li><a href="skills">Skills</a></li>
-          <li><a href="projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
         </ul>
         <div class="title">Jhon Sisneros</div>
         <div class="dropdown">
@@ -51,6 +51,7 @@
       </div>
     </div>
     <div class="middle-section">
+      <div></div>
       <div class="education">
         <h2>Education</h2>
         <div class="education-info">
@@ -79,11 +80,11 @@
             <ul class="job-description">
               <li>
                 Developed a microservice in TypeScript that sends an updated
-                list of current employees to a partnered vendor’s systems using
+                list of current employees to a partnered vendor's systems using
                 their REST API.
               </li>
               <li>
-                Implemented an ad-hoc report per request of company’s
+                Implemented an ad-hoc report per request of company's
                 post-closing department and added approximately 25 new
                 substatuses pulled from a combination of loan data points using
                 MS SQL stored procedures.
@@ -99,11 +100,66 @@
       </div>
     </div>
     <div class="bottom-section">
+      <div></div>
       <div class="skills">
         <h2>Skills</h2>
-        <p class="stack-info"></p>
+        <ul class="skills-list">
+          <div class="pairing">
+            <li>Java</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+          </div>
+          <div class="pairing">
+            <li>Node.js</li>
+            <li>DynamoDB</li>
+            <li>Amazon S3</li>
+          </div>
+          <div class="pairing">
+            <li>API Gateway</li>
+            <li>AWS Lambda</li>
+          </div>
+        </ul>
+      </div>
+      <div class="projects">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+          <li>
+            <div class="project-info">
+              <div class="project-title">AWS Personal Website</div>
+              <div class="project-description">
+                A simple website that is hosted on Amazon S3. It follows
+                serverless design as the files are hosted on S3 and served on
+                CloudFront. It also utilizes AWS Lambda, DynamoDB, and API
+                Gateway to make simple API calls that reads and updates the
+                number of visits to this website.
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/jayhons99/resume-site-frontend"
+                  >Front end source</a
+                >
+                <a href="https://github.com/jayhons99/resume-site-backend"
+                  >Back end source</a
+                >
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="project-info">
+              <div class="project-title">StarTime Show</div>
+              <div class="project-description">
+                The final project for my Software Engineering course. This was a
+                team effort to build a functional web application that allowed
+                customers to book movies to watch at a fake theater. Contained
+                authentication for user login and registration as well as a
+                functional email service to confirm registration. This web
+                application was built on Spring Boot.
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
+    <div class="footer">Jhon Sisneros</div>
     <script src="" async defer></script>
   </body>
 </html>

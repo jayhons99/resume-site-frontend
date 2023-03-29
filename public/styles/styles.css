@@ -152,6 +152,7 @@ img {
 .education h2 {
   font-size: 30px;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .education-info {
@@ -161,18 +162,18 @@ img {
 
 .education-info h4 {
   margin-bottom: 20px;
-  text-indent: 1rem;
+  text-indent: 2.5rem;
 }
 .education-info ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 2.5rem;
 }
 
 .education-info p {
-  margin: 20px;
+  margin: 40px;
 }
 
 .middle-section {
@@ -220,10 +221,90 @@ img {
   max-width: 40rem;
   font-size: 18px;
   margin: 5px;
+  text-indent: 0;
 }
 
 .bottom-section {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #1b263b;
+  color: #e0e1dd;
+}
+
+.bottom-section .skills {
+  width: 500px;
+}
+
+.bottom-section .skills h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.pairing {
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.bottom-section ul {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bottom-section .projects h2 {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.projects {
+  width: 730px;
+}
+
+.projects-list ul {
+  display: flex;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.project-links a {
+  text-decoration: underline;
+  color: #e0e1dd;
+}
+
+.project-links a:hover {
+  text-decoration: none;
+}
+
+.projects-list .project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-list .project-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.projects-list .project-description {
+  max-width: 40rem;
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  background-color: #0d1b2a;
   color: #e0e1dd;
 }
 
